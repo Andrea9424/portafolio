@@ -1,0 +1,15 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+  .bg{
+    /*
+* Created with https://www.css-gradient.com
+* Gradient link: https://www.css-gradient.com/?c1=3f3a78&c2=7c75d7&gt=l&gd=dcl
+*/
+
+background: linear-gradient(90deg, rgba(63, 58, 120, 1.0), rgba(124, 117, 215, 1.0));
+  }
+
+
+
