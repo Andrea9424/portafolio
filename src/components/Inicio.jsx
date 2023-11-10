@@ -104,7 +104,7 @@ const Inicio = () => {
           <div className="max-w-[230px] mx-auto relative  rounded-md p-1   shadow-lg shadow-black  ">
             <img
               className="w-auto rounded-lg "
-              src="/public/imgs/e-commer.png"
+              src="imgs/e-commer.png"
               alt=""
             />
             <div className="  text-white p-2 rounded-lg ">
@@ -120,7 +120,7 @@ const Inicio = () => {
           <div className="max-w-[230px] mx-auto   rounded-md p-1  shadow-lg shadow-black   ">
             <img
               className="w-auto  rounded-lg "
-              src="/public/imgs/pokemons.png "
+              src="imgs/pokemons.png "
               alt=""
             />
             <div className="  text-white p-1 rounded-lg ">
@@ -136,7 +136,7 @@ const Inicio = () => {
           <div className="w-[230px] mx-auto relative  rounded-md p-1  shadow-lg shadow-black ">
             <img
               className="w-auto  rounded-lg  "
-              src="/public/imgs/ricky_morty.png "
+              src="imgs/ricky_morty.png "
               alt=""
             />
             <div className="  text-white p-1 rounded-lg ">
@@ -152,7 +152,7 @@ const Inicio = () => {
           <div className="w-[230px] mx-auto relative  rounded-md p-1  shadow-lg shadow-black ">
             <img
               className="w-auto rounded-lg "
-              src="/public/imgs/clima.png "
+              src="imgs/clima.png "
               alt=""
             />
             <div className="  text-white p-1 rounded-lg ">
@@ -168,13 +168,13 @@ const Inicio = () => {
           <div className="w-[230px] mx-auto relative  rounded-md p-1  shadow-lg shadow-black ">
             <img
               className="w-auto rounded-lg "
-              src="/public/imgs/clima.png "
+              src="imgs/crud.png "
               alt=""
             />
             <div className="  text-white p-1 rounded-lg ">
-              <h1 className=" text-2xl font-semibold">Weather app</h1>
+              <h1 className=" text-2xl font-semibold">Crud users</h1>
               <p className="mt-1">
-                React useEffect y consumo de API..{" "}
+                React CRUD’s y métodos HTTP..{" "}
                 <Link className="hover:text-sky-700 cursor-pointer" to={url}>
                   Ver mas
                 </Link>
@@ -184,7 +184,7 @@ const Inicio = () => {
           <div className="w-[230px] mx-auto relative  rounded-md p-1  shadow-lg shadow-black ">
             <img
               className="w-auto rounded-lg "
-              src="/public/imgs/cooki.png "
+              src="imgs/cooki.png "
               alt=""
             />
             <div className="  text-white p-1 rounded-lg ">
