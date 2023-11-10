@@ -15,7 +15,7 @@ const Inicio = () => {
       <div className="max-w-md  mx-auto  p-4 flex  items-center justify-center ">
         <img
           className="rounded-full  w-32 mt-8  shadow-lg shadow-blue-700/50 "
-          src="/public/imgs/andrea.jpg"
+          src="imgs/andrea.jpg"
           alt=""
         />
         <svg
@@ -45,11 +45,20 @@ const Inicio = () => {
           </h1>
         </section>
       </div>
-          <section className="max-w-md  mx-auto p-4 "> 
-            <h2 className="text-white text-center text-2xl font-Source_Code_Pro">About me</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse sit eaque voluptates rem doloribus expedita, laudantium perferendis reiciendis voluptatibus autem odit suscipit praesentium earum quibusdam repudiandae tempora eum dolorum sint!</p>
-          </section>
-      <h2 className="text-white text-2xl font-Source_Code_Pro text-center mt-16 ">Skills</h2>
+      <section className="max-w-md  mx-auto p-4 ">
+        <h2 className="text-white text-center text-2xl font-Source_Code_Pro">
+          About me
+        </h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse sit
+          eaque voluptates rem doloribus expedita, laudantium perferendis
+          reiciendis voluptatibus autem odit suscipit praesentium earum
+          quibusdam repudiandae tempora eum dolorum sint!
+        </p>
+      </section>
+      <h2 className="text-white text-2xl font-Source_Code_Pro text-center mt-16 ">
+        Skills
+      </h2>
       <div className="flex justify-center  m-5 text-white ">
         <span className="">
           {" "}
@@ -88,7 +97,9 @@ const Inicio = () => {
         </span>
       </div>
       <section>
-        <p className="text-white text-2xl font-Source_Code_Pro text-center mt-16 mb-14">Portfolio</p>
+        <p className="text-white text-2xl font-Source_Code_Pro text-center mt-16 mb-14">
+          Portfolio
+        </p>
         <div className=" mx-auto   grid px-3 gap-9 grid-cols-[repeat(auto-fit,_minmax(250px,_1fr))] lg:w-1000px m-auto">
           <div className="max-w-[230px] mx-auto relative  rounded-md p-1   shadow-lg shadow-black  ">
             <img
@@ -189,7 +200,7 @@ const Inicio = () => {
         </div>
       </section>
 
-      <Contactme/> 
+      <Contactme />
     </section>
   );
 };
